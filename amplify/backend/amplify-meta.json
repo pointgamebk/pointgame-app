@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pointgameapp-staging-155302-authRole",
+      "UnauthRoleArn": "arn:aws:iam::880590346995:role/amplify-pointgameapp-staging-155302-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::880590346995:role/amplify-pointgameapp-staging-155302-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pointgameapp-staging-155302-deployment",
+      "UnauthRoleName": "amplify-pointgameapp-staging-155302-unauthRole",
+      "StackName": "amplify-pointgameapp-staging-155302",
+      "StackId": "arn:aws:cloudformation:us-east-1:880590346995:stack/amplify-pointgameapp-staging-155302/dbf32600-1a82-11ee-8dc4-12a269726e07",
+      "AmplifyAppId": "d38irdd2cpwq7p"
+    }
+  },
+  "auth": {
+    "pointgameapp": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "us-east-1_xbWQMT4bH",
+        "UserPoolName": "user-production",
+        "AppClientID": "4ulmdns9at2qe71alp2qb9hes7",
+        "AppClientIDWeb": "4ulmdns9at2qe71alp2qb9hes7",
+        "HostedUIDomain": "gopointgame"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "GIVEN_NAME",
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ]
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "lastPushTimeStamp": "2023-07-04T16:03:05.399Z"
+    }
+  }
+}

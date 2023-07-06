@@ -1,0 +1,25 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pointgameapp-staging-155302-authRole",
+      "UnauthRoleArn": "arn:aws:iam::880590346995:role/amplify-pointgameapp-staging-155302-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::880590346995:role/amplify-pointgameapp-staging-155302-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pointgameapp-staging-155302-deployment",
+      "UnauthRoleName": "amplify-pointgameapp-staging-155302-unauthRole",
+      "StackName": "amplify-pointgameapp-staging-155302",
+      "StackId": "arn:aws:cloudformation:us-east-1:880590346995:stack/amplify-pointgameapp-staging-155302/dbf32600-1a82-11ee-8dc4-12a269726e07",
+      "AmplifyAppId": "d38irdd2cpwq7p"
+    },
+    "categories": {
+      "auth": {
+        "pointgameapp": {
+          "nativeClientId": "4ulmdns9at2qe71alp2qb9hes7",
+          "userPoolId": "us-east-1_xbWQMT4bH",
+          "userPoolName": "user-production",
+          "webClientId": "4ulmdns9at2qe71alp2qb9hes7"
+        }
+      }
+    }
+  }
+}
